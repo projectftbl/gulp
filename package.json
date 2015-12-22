@@ -1,0 +1,27 @@
+{
+  "name": "@ftbl/gulp",
+  "version": "0.0.0",
+  "description": "Common gulp tasks",
+  "main": "node index",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.x"
+  },
+  "author": "Johnny Hall",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ftbl/gulp.git"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-env": "^0.2.0",
+    "gulp-git": "^1.2.4",
+    "gulp-mocha": "^2.1.3",
+    "gulp-notify": "^2.2.0",
+    "lodash": "^3.10.1",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.2"
+  }
+}
