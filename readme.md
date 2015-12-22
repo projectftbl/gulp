@@ -1,4 +1,4 @@
-## Gulch
+## @ftbl/gulp
 
 Common gulp tasks.
 
@@ -9,7 +9,7 @@ In `gulpfile.js`:
 ```javascript
 var gulp = require('gulp');
 
-require('gulch');
+require('@ftbl/gulp')(gulp);
 
 gulp.task('default', [ 'test' ]);
 ```
@@ -54,8 +54,32 @@ gulp release:major
 
 ### Test
 
+Tests are assumed to be in the test/unit and test/integration folders.
+
 Run mocha tests:
 
 ```
 gulp test
+gulp test:unit
+gulp test:integration
 ```
+
+To watch tests:
+
+```
+gulp test:watch
+```
+
+To override options, in your gulpfile.js, provide an options hash as the second parameter in the setup function call.
+
+```
+require('@ftbl/gulp')(gulp, {
+  'test:unit': {
+  	setup: require('./test/unit/setup')
+  }
+, 'test:integration': {
+  	setup: require('./test/integration/setup')
+  }
+});
+```
+
