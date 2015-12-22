@@ -72,7 +72,7 @@ gulp test:watch
 
 To override options, in your gulpfile.js, provide an options hash as the second parameter in the setup function call.
 
-```
+```javascript
 require('@ftbl/gulp')(gulp, {
   'test:unit': {
   	setup: require('./test/unit/setup')
