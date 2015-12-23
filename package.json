@@ -1,5 +1,6 @@
 {
   "name": "@ftbl/gulp",
+  "private": true,
   "version": "1.0.3",
   "description": "Common gulp tasks",
   "main": "node index",
