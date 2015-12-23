@@ -1,5 +1,6 @@
 {
   "name": "@ftbl/gulp",
+  "private": true,
   "version": "1.0.1",
   "description": "Common gulp tasks",
   "main": "node index",
@@ -20,7 +21,6 @@
     "gulp-git": "^1.2.4",
     "gulp-istanbul": "^0.10.3",
     "gulp-mocha": "^2.1.3",
-    "gulp-notify": "^2.2.0",
     "lodash": "^3.10.1",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.2"
