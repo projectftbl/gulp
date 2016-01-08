@@ -14,9 +14,12 @@
     "url": "git@github.com:projectftbl/gulp.git"
   },
   "dependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint-plugin-react": "^3.14.0",
     "gulp": "^3.9.0",
     "gulp-bump": "^1.0.0",
     "gulp-env": "^0.2.0",
+    "gulp-eslint": "^1.1.1",
     "gulp-git": "^1.2.4",
     "gulp-istanbul": "^0.10.3",
     "gulp-mocha": "^2.1.3",
