@@ -1,5 +1,5 @@
 {
-  "name": "@ftbl/gulp",
+  "name": "@recipher/gulp",
   "version": "1.6.4",
   "description": "Common gulp tasks",
   "main": "node index",
@@ -11,10 +11,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:projectftbl/gulp.git"
+    "url": "git@github.com:recipher/gulp.git"
   },
   "dependencies": {
-    "@ftbl/client": "^1.2.0",
     "babel-core": "^6.4.5",
     "babel-eslint": "^4.1.6",
     "btoa": "^1.1.2",

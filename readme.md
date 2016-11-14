@@ -1,4 +1,4 @@
-## @ftbl/gulp
+## @recipher/gulp
 
 Common gulp tasks.
 
@@ -9,7 +9,7 @@ In `gulpfile.js`:
 ```javascript
 var gulp = require('gulp');
 
-require('@ftbl/gulp')(gulp);
+require('@recipher/gulp')(gulp);
 
 gulp.task('default', [ 'test' ]);
 ```
@@ -73,7 +73,7 @@ gulp test:watch
 To override options, in your gulpfile.js, provide an options hash as the second parameter in the setup function call.
 
 ```javascript
-require('@ftbl/gulp')(gulp, {
+require('@recipher/gulp')(gulp, {
   'test:unit': {
   	setup: require('./test/unit/setup')
   }
