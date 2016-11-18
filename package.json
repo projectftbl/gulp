@@ -14,7 +14,7 @@
     "url": "git@github.com:recipher/gulp.git"
   },
   "dependencies": {
-    "@recipher/client": "^1.2.0",
+    "@recipher/client": "^1.2.1",
     "babel-core": "^6.4.5",
     "babel-eslint": "^4.1.6",
     "btoa": "^1.1.2",
